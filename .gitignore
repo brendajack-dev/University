@@ -1,16 +1,30 @@
-# Compiled class file
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Visual Studio Code
+.vscode/
+
+# Java - compiled files
 *.class
 
-# Log file
+# Build directories
+out/
+target/
+
+# Logs
 *.log
 
-# BlueJ files
+# Sensitive / environment files
+.env
+
+# BlueJ
 *.ctxt
 
 # Mobile Tools for Java (J2ME)
 .mtj.tmp/
 
-# Package Files #
+# Package files
 *.jar
 *.war
 *.nar
@@ -19,6 +33,6 @@
 *.tar.gz
 *.rar
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+# JVM crash logs
 hs_err_pid*
 replay_pid*
