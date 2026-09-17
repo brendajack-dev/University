@@ -1,4 +1,4 @@
-package src.EntradaDatosPorConsola;
+package src.entradaDatosConsolaJava;
 
 public class FormateoCadenas {
     public static void main(String[] args) {
