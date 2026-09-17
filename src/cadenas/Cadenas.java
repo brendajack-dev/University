@@ -9,11 +9,9 @@ public class Cadenas {
         System.out.println("cadena2 = " + cadena2);
         String cadena3 = cadena + " " + cadena2;
         System.out.println("cadena3 = " + cadena3);
-        String cadena4="""
-                Este es un texto
-                multilinea
-                    multilinea
-                """;
+        String cadena4 = "Este es un texto\n"
+        + "multilinea\n"
+        + "multilinea";
         System.out.println("cadena4 = " + cadena4);
 
     }
