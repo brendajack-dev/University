@@ -7,6 +7,8 @@ public class RetoSistemaReservaHotel {
         System.out.println("*** Sistema de Reserva de un Hotel");
 
         //Solicitamos la informacion al usuario
+        double precioTotal;
+        String vistaAlMar;
         Scanner consola = new Scanner(System.in);
 
         System.out.print("Ingrese su nombre: ");
@@ -16,12 +18,29 @@ public class RetoSistemaReservaHotel {
         int diasReservados = Integer.parseInt(consola.nextLine());
         
         System.out.print("¿Le gustaria que su cuarto tenga vista al mar? (responda true or false) ");
-        boolean cuartoConVistaAlMar = Boolean.parseBoolean(consola.nextLine());
+        boolean siRequireCuartoConVistaAlMar = Boolean.parseBoolean(consola.nextLine());
 
         //Tarifas del hotel por dia
         final double CUARTO_SIN_VISTAL_MAR = 150.50;
         final double CUARTO_CON_VISTAL_MAR= 190.50;
 
+        //Calculamos el precio
+        if (siRequireCuartoConVistaAlMar){
+
+            precioTotal = CUARTO_CON_VISTAL_MAR * diasReservados;
+            vistaAlMar = "Si";
+        } else
+            precioTotal = CUARTO_SIN_VISTAL_MAR * diasReservados;
+            vistaAlMar = "No";
         
+        //Imprimimos el resultado
+        System.out.printf("%n------ Detalles de la Reservacion -----" + 
+            "%nCliente: %s" + 
+            "%nDías de estandía: %d" + 
+            "%nCosto total: %.2f" + 
+            "%nHabitación con vista al mar: %s"
+            ,  nombre, diasReservados, precioTotal, vistaAlMar
+            //siRequireCuartoConVistaAlMar ? "Si" : "No" ; 
+        );
     }
 }
