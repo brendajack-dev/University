@@ -26,7 +26,5 @@ public class ReotSistemaDeAutenticacion {
         } else {
             System.out.println("Usuario y contraseña invalidos: " + usuario + " " + contraseña);
         }
-
-
     }
 }
