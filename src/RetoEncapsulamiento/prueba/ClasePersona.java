@@ -1,3 +1,4 @@
+package RetoEncapsulamiento.prueba;
 public class ClasePersona {
     String nombre;
     String apellido;

@@ -1,4 +1,4 @@
-package src.operadoresJava;
+package operadoresJava;
 
 public class OperadoresUnarios {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package src.entradaDatosConsolaJava;
+package entradaDatosConsolaJava;
 
 import java.util.Random;
 

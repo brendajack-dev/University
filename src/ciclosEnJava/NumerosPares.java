@@ -1,4 +1,4 @@
-package src.ciclosEnJava;
+package ciclosEnJava;
 
 public class NumerosPares {
     public static void main(String[] args) {

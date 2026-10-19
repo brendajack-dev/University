@@ -1,4 +1,4 @@
-package src.ciclosEnJava;
+package ciclosEnJava;
 
 import java.util.Scanner;
 

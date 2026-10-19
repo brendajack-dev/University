@@ -1,4 +1,4 @@
-package src.sentenciasdeDesicionJava;
+package sentenciasdeDesicionJava;
 
 public class SentenciaIf {
     public static void main(String[] args) {

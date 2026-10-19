@@ -1,4 +1,4 @@
-package src.ciclosEnJava;
+package ciclosEnJava;
 
 public class CicloDoWhile {
     public static void main(String[] args) {

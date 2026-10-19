@@ -1,4 +1,4 @@
-package src.sentenciasdeDesicionJava;
+package sentenciasdeDesicionJava;
 
 public class RetoSistemaDeCalificaciones {
     public static void main(String[] args) {

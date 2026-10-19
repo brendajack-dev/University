@@ -1,4 +1,4 @@
-package src.sentenciasdeDesicionJava;
+package sentenciasdeDesicionJava;
 
 import java.util.Scanner;
 
