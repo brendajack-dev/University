@@ -1,7 +1,7 @@
 package RetoEncapsulamiento.persona;
 public class Persona {
-    String nombre;
-    String apellido;
+    private String nombre;
+    private String apellido;
 
     
     public Persona(String nombre, String apellido) {
@@ -15,7 +15,7 @@ public class Persona {
     }
 
     public String getNombre() {
-        return nombre;
+        return this.nombre;
     }
 
     public void setNombre(String nombre) {
@@ -23,7 +23,7 @@ public class Persona {
     }
 
     public String getApellido() {
-        return apellido;
+        return this.apellido;
     }
 
     public void setApellido(String apellido) {
