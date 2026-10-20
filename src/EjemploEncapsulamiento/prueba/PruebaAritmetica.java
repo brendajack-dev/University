@@ -1,6 +1,6 @@
-package prueba;
+package ejemploEncapsulamiento.prueba;
 
-import aritmetica.Aritmetica;
+import ejemploEncapsulamiento.aritmetica.Aritmetica;
 
 public class PruebaAritmetica {
     public static void main(String[] args) {
