@@ -3,22 +3,30 @@ public class Persona {
     String nombre;
     String apellido;
 
-    void mostrarPersona(){
-        System.out.println("Nombre: " + nombre);
-        System.out.println("Apellido: " + apellido);
+    
+    public Persona(String nombre, String apellido) {
+        this.nombre = nombre;
+        this.apellido = apellido;
     }
 
-    public static void main(String[] args) {
-        System.out.println("*** Creacion de Clase y Objetos Persona ***");
-        var objeto1 = new Persona();
-        objeto1.nombre = "Layla";
-        objeto1.apellido = "Acosta";
-        objeto1.mostrarPersona();
-        // Segundo objeto
-        System.out.println();
-        var objeto2 = new Persona();
-        objeto2.nombre = "Ian";
-        objeto2.apellido = "Gomez";
-        objeto2.mostrarPersona();
+    public void concatenarNombre(){
+        var resultado = this.nombre + this.apellido;
+        System.out.println("Resultado del nombre: " + resultado);
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getApellido() {
+        return apellido;
+    }
+
+    public void setApellido(String apellido) {
+        this.apellido = apellido;
     }
 }
