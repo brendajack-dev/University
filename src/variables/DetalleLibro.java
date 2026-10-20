@@ -1,4 +1,4 @@
-package src.variables;
+package variables;
 
 public class DetalleLibro {
     public static void main(String[] args) {

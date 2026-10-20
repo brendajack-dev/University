@@ -1,4 +1,4 @@
-package src.operadoresJava;
+package operadoresJava;
 
 public class OperadorLogicoNot {
     public static void main(String[] args) {

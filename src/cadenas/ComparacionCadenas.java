@@ -1,4 +1,4 @@
-package src.cadenas;
+package cadenas;
 
 public class ComparacionCadenas {
     public static void main(String[] args) {
