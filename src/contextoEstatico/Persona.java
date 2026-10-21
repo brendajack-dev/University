@@ -1,4 +1,4 @@
-package persona;
+package contextoEstatico;
 
 public class Persona{
     static int contadorPersonas = 0;
@@ -10,6 +10,7 @@ public class Persona{
         this.apellido = apellido;
         // Incrementar el atributo static
         Persona.contadorPersonas++;
+        
     }
 
     @Override

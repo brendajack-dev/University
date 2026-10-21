@@ -1,4 +1,4 @@
-package persona;
+package contextoEstatico;
 
 public class PruebaPersona {
     public static void main(String[] args) {
