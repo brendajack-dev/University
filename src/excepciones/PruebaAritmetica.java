@@ -12,10 +12,4 @@ public class PruebaAritmetica {
             System.out.println("Se reviso la division entre cero");
         }
     }
-}        
-
-
-
-
-
-
+}
